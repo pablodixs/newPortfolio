@@ -41,20 +41,22 @@ export const globalStyles = globalCss({
   },
 
   body: {
-    backgroundColor: '#fefefd',
     fontFamily: `Averta, sans-serif`,
     '-webkit-font-smoothing': 'antialiased',
     textRendering: 'geometricPrecision',
     fontWeight: 400,
+    backgroundColor: '$background', 
+    color: '$text',
+    transition: 'background-color ease 350ms'
   },
 
   'h1, h2, h3, h4, h5, h6': {
     fontFamily: 'Moranga, serif',
+    color: '$heading',
   },
 
   h1: {
     fontSize: '2.5rem',
-    color: '$black500',
   },
 
   a: {

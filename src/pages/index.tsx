@@ -32,7 +32,7 @@ export default function Home() {
           olá! sou desenvolvedor front-end <br /> e estudante de engenharia de
           software
         </Heading>
-        <ArrowCircleDown size={32} weight="fill" />
+        <ArrowCircleDown weight="regular" />
       </HeroContainer>
       <Main />
     </>

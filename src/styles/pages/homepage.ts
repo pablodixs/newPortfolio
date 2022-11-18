@@ -22,12 +22,14 @@ export const HeroContainer = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
+  backgroundColor: '$background',
 
   svg: {
     animation: upAndDown,
     animationDuration: '4s',
     animationIterationCount: 'infinite',
     color: '$gray500',
+    fontSize: '1.75rem'
   }
 })
 
@@ -40,6 +42,7 @@ export const VideoContainer = styled('div', {
 export const PresentationVideo = styled('video', {
   objectFit: 'cover',
   animation: `${showUp} 200ms`,
+  borderRadius: '20px'
 })
 
 export const Heading = styled('h1', {
@@ -47,6 +50,6 @@ export const Heading = styled('h1', {
   fontSize: '3rem',
   lineHeight: '100%',
   fontWeight: '800',
-  margin: '2rem 0 5rem',
+  margin: '2rem 0',
   animation: `${showUp} 200ms`,
 })

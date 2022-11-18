@@ -20,12 +20,12 @@ export const HeaderContainer = styled('header', {
         a: {
           padding: '0.5rem 1rem',
           borderRadius: '1rem',
-          color: '$black100',
+          color: '$text',
           lineHeight: '100%',
 
           '&:hover': {
-            backgroundColor: '$black100',
-            color: 'white',
+            backgroundColor: '$heading',
+            color: '$background',
           },
         },
       },
