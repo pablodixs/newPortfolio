@@ -6,15 +6,21 @@ import logo from '../../assets/logo.svg'
 import { HeaderContainer } from './styles'
 
 export function Header() {
-  return(
+  return (
     <HeaderContainer>
-      <Image src={logo} draggable={false} alt='' />
+      <Image src={logo} draggable={false} alt="" quality={100} />
       <nav>
         <ul>
-          <li><Link href='#'>Sobre</Link></li>
-          <li><Link href='#'>Projetos</Link></li>
-          <li><Link href='#'>Contato</Link></li>
-        </ul>  
+          <li>
+            <Link href="#">Sobre</Link>
+          </li>
+          <li>
+            <Link href="#">Projetos</Link>
+          </li>
+          <li>
+            <Link href="#">Contato</Link>
+          </li>
+        </ul>
       </nav>
     </HeaderContainer>
   )

@@ -10,6 +10,7 @@ export const HeaderContainer = styled('header', {
     ul: {
       listStyle: 'none',
       display: 'flex',
+      alignItems: 'center',
       gap: '0.5rem',
 
       li: {
@@ -20,6 +21,7 @@ export const HeaderContainer = styled('header', {
           padding: '0.5rem 1rem',
           borderRadius: '1rem',
           color: '$black100',
+          lineHeight: '100%',
 
           '&:hover': {
             backgroundColor: '$black100',
